@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B243B2137F14FD0068A2B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B243B1137F14FD0068A2B2 /* UIKit.framework */; };
+		02B243B4137F14FD0068A2B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B243B3137F14FD0068A2B2 /* Foundation.framework */; };
+		02B243B6137F14FD0068A2B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B243B5137F14FD0068A2B2 /* CoreGraphics.framework */; };
+		02B243BC137F14FD0068A2B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02B243BA137F14FD0068A2B2 /* InfoPlist.strings */; };
+		02B243BF137F14FD0068A2B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B243BE137F14FD0068A2B2 /* main.m */; };
+		02B243C2137F14FD0068A2B2 /* SodateAAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B243C1137F14FD0068A2B2 /* SodateAAAppDelegate.m */; };
+		02B243C5137F14FD0068A2B2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B243C3137F14FD0068A2B2 /* MainWindow.xib */; };
+		02B243C8137F14FD0068A2B2 /* SodateAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B243C7137F14FD0068A2B2 /* SodateAAViewController.m */; };
+		02B243CB137F14FD0068A2B2 /* SodateAAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B243C9137F14FD0068A2B2 /* SodateAAViewController.xib */; };
+		02B243D2137F14FD0068A2B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B243B1137F14FD0068A2B2 /* UIKit.framework */; };
+		02B243D3137F14FD0068A2B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B243B3137F14FD0068A2B2 /* Foundation.framework */; };
+		02B243D4137F14FD0068A2B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B243B5137F14FD0068A2B2 /* CoreGraphics.framework */; };
+		02B243DC137F14FD0068A2B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02B243DA137F14FD0068A2B2 /* InfoPlist.strings */; };
+		02B243DF137F14FD0068A2B2 /* SodateAATests.h in Resources */ = {isa = PBXBuildFile; fileRef = 02B243DE137F14FD0068A2B2 /* SodateAATests.h */; };
+		02B243E1137F14FD0068A2B2 /* SodateAATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B243E0137F14FD0068A2B2 /* SodateAATests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B243D5137F14FD0068A2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B243A4137F14FD0068A2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B243AC137F14FD0068A2B2;
+			remoteInfo = SodateAA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B243AD137F14FD0068A2B2 /* SodateAA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SodateAA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B243B1137F14FD0068A2B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02B243B3137F14FD0068A2B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02B243B5137F14FD0068A2B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02B243B9137F14FD0068A2B2 /* SodateAA-Info.plist */ = {isa = PBXFileReference; path = "SodateAA-Info.plist"; sourceTree = "<group>"; };
+		02B243BB137F14FD0068A2B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02B243BD137F14FD0068A2B2 /* SodateAA-Prefix.pch */ = {isa = PBXFileReference; path = "SodateAA-Prefix.pch"; sourceTree = "<group>"; };
+		02B243BE137F14FD0068A2B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02B243C0137F14FD0068A2B2 /* SodateAAAppDelegate.h */ = {isa = PBXFileReference; path = SodateAAAppDelegate.h; sourceTree = "<group>"; };
+		02B243C1137F14FD0068A2B2 /* SodateAAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SodateAAAppDelegate.m; sourceTree = "<group>"; };
+		02B243C4137F14FD0068A2B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		02B243C6137F14FD0068A2B2 /* SodateAAViewController.h */ = {isa = PBXFileReference; path = SodateAAViewController.h; sourceTree = "<group>"; };
+		02B243C7137F14FD0068A2B2 /* SodateAAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SodateAAViewController.m; sourceTree = "<group>"; };
+		02B243CA137F14FD0068A2B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SodateAAViewController.xib; sourceTree = "<group>"; };
+		02B243D1137F14FD0068A2B2 /* SodateAATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodateAATests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B243D9137F14FD0068A2B2 /* SodateAATests-Info.plist */ = {isa = PBXFileReference; path = "SodateAATests-Info.plist"; sourceTree = "<group>"; };
+		02B243DB137F14FD0068A2B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02B243DD137F14FD0068A2B2 /* SodateAATests-Prefix.pch */ = {isa = PBXFileReference; path = "SodateAATests-Prefix.pch"; sourceTree = "<group>"; };
+		02B243DE137F14FD0068A2B2 /* SodateAATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SodateAATests.h; sourceTree = "<group>"; };
+		02B243E0137F14FD0068A2B2 /* SodateAATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SodateAATests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B243AA137F14FD0068A2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B243B2137F14FD0068A2B2 /* UIKit.framework in Frameworks */,
+				02B243B4137F14FD0068A2B2 /* Foundation.framework in Frameworks */,
+				02B243B6137F14FD0068A2B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B243CD137F14FD0068A2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B243D2137F14FD0068A2B2 /* UIKit.framework in Frameworks */,
+				02B243D3137F14FD0068A2B2 /* Foundation.framework in Frameworks */,
+				02B243D4137F14FD0068A2B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B243A2137F14FD0068A2B2 = {
+			isa = PBXGroup;
+			children = (
+				02B243B7137F14FD0068A2B2 /* SodateAA */,
+				02B243D7137F14FD0068A2B2 /* SodateAATests */,
+				02B243B0137F14FD0068A2B2 /* Frameworks */,
+				02B243AE137F14FD0068A2B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B243AE137F14FD0068A2B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B243AD137F14FD0068A2B2 /* SodateAA.app */,
+				02B243D1137F14FD0068A2B2 /* SodateAATests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B243B0137F14FD0068A2B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02B243B1137F14FD0068A2B2 /* UIKit.framework */,
+				02B243B3137F14FD0068A2B2 /* Foundation.framework */,
+				02B243B5137F14FD0068A2B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02B243B7137F14FD0068A2B2 /* SodateAA */ = {
+			isa = PBXGroup;
+			children = (
+				02B243C0137F14FD0068A2B2 /* SodateAAAppDelegate.h */,
+				02B243C1137F14FD0068A2B2 /* SodateAAAppDelegate.m */,
+				02B243C3137F14FD0068A2B2 /* MainWindow.xib */,
+				02B243C6137F14FD0068A2B2 /* SodateAAViewController.h */,
+				02B243C7137F14FD0068A2B2 /* SodateAAViewController.m */,
+				02B243C9137F14FD0068A2B2 /* SodateAAViewController.xib */,
+				02B243B8137F14FD0068A2B2 /* Supporting Files */,
+			);
+			path = SodateAA;
+			sourceTree = "<group>";
+		};
+		02B243B8137F14FD0068A2B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B243B9137F14FD0068A2B2 /* SodateAA-Info.plist */,
+				02B243BA137F14FD0068A2B2 /* InfoPlist.strings */,
+				02B243BD137F14FD0068A2B2 /* SodateAA-Prefix.pch */,
+				02B243BE137F14FD0068A2B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02B243D7137F14FD0068A2B2 /* SodateAATests */ = {
+			isa = PBXGroup;
+			children = (
+				02B243DE137F14FD0068A2B2 /* SodateAATests.h */,
+				02B243E0137F14FD0068A2B2 /* SodateAATests.m */,
+				02B243D8137F14FD0068A2B2 /* Supporting Files */,
+			);
+			path = SodateAATests;
+			sourceTree = "<group>";
+		};
+		02B243D8137F14FD0068A2B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B243D9137F14FD0068A2B2 /* SodateAATests-Info.plist */,
+				02B243DA137F14FD0068A2B2 /* InfoPlist.strings */,
+				02B243DD137F14FD0068A2B2 /* SodateAATests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B243AC137F14FD0068A2B2 /* SodateAA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B243E4137F14FD0068A2B2 /* Build configuration list for PBXNativeTarget "SodateAA" */;
+			buildPhases = (
+				02B243A9137F14FD0068A2B2 /* Sources */,
+				02B243AA137F14FD0068A2B2 /* Frameworks */,
+				02B243AB137F14FD0068A2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SodateAA;
+			productName = SodateAA;
+			productReference = 02B243AD137F14FD0068A2B2 /* SodateAA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02B243D0137F14FD0068A2B2 /* SodateAATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B243E7137F14FD0068A2B2 /* Build configuration list for PBXNativeTarget "SodateAATests" */;
+			buildPhases = (
+				02B243CC137F14FD0068A2B2 /* Sources */,
+				02B243CD137F14FD0068A2B2 /* Frameworks */,
+				02B243CE137F14FD0068A2B2 /* Resources */,
+				02B243CF137F14FD0068A2B2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B243D6137F14FD0068A2B2 /* PBXTargetDependency */,
+			);
+			name = SodateAATests;
+			productName = SodateAATests;
+			productReference = 02B243D1137F14FD0068A2B2 /* SodateAATests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B243A4137F14FD0068A2B2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 02B243A7137F14FD0068A2B2 /* Build configuration list for PBXProject "SodateAA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02B243A2137F14FD0068A2B2;
+			productRefGroup = 02B243AE137F14FD0068A2B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B243AC137F14FD0068A2B2 /* SodateAA */,
+				02B243D0137F14FD0068A2B2 /* SodateAATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B243AB137F14FD0068A2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B243BC137F14FD0068A2B2 /* InfoPlist.strings in Resources */,
+				02B243C5137F14FD0068A2B2 /* MainWindow.xib in Resources */,
+				02B243CB137F14FD0068A2B2 /* SodateAAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B243CE137F14FD0068A2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B243DC137F14FD0068A2B2 /* InfoPlist.strings in Resources */,
+				02B243DF137F14FD0068A2B2 /* SodateAATests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02B243CF137F14FD0068A2B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B243A9137F14FD0068A2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B243BF137F14FD0068A2B2 /* main.m in Sources */,
+				02B243C2137F14FD0068A2B2 /* SodateAAAppDelegate.m in Sources */,
+				02B243C8137F14FD0068A2B2 /* SodateAAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B243CC137F14FD0068A2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B243E1137F14FD0068A2B2 /* SodateAATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B243D6137F14FD0068A2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B243AC137F14FD0068A2B2 /* SodateAA */;
+			targetProxy = 02B243D5137F14FD0068A2B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02B243BA137F14FD0068A2B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B243BB137F14FD0068A2B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02B243C3137F14FD0068A2B2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B243C4137F14FD0068A2B2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		02B243C9137F14FD0068A2B2 /* SodateAAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B243CA137F14FD0068A2B2 /* en */,
+			);
+			name = SodateAAViewController.xib;
+			sourceTree = "<group>";
+		};
+		02B243DA137F14FD0068A2B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B243DB137F14FD0068A2B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02B243E2137F14FD0068A2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02B243E3137F14FD0068A2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		02B243E5137F14FD0068A2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SodateAA/SodateAA-Prefix.pch";
+				INFOPLIST_FILE = "SodateAA/SodateAA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02B243E6137F14FD0068A2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SodateAA/SodateAA-Prefix.pch";
+				INFOPLIST_FILE = "SodateAA/SodateAA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		02B243E8137F14FD0068A2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SodateAA.app/SodateAA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SodateAATests/SodateAATests-Prefix.pch";
+				INFOPLIST_FILE = "SodateAATests/SodateAATests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		02B243E9137F14FD0068A2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SodateAA.app/SodateAA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SodateAATests/SodateAATests-Prefix.pch";
+				INFOPLIST_FILE = "SodateAATests/SodateAATests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B243A7137F14FD0068A2B2 /* Build configuration list for PBXProject "SodateAA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B243E2137F14FD0068A2B2 /* Debug */,
+				02B243E3137F14FD0068A2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B243E4137F14FD0068A2B2 /* Build configuration list for PBXNativeTarget "SodateAA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B243E5137F14FD0068A2B2 /* Debug */,
+				02B243E6137F14FD0068A2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02B243E7137F14FD0068A2B2 /* Build configuration list for PBXNativeTarget "SodateAATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B243E8137F14FD0068A2B2 /* Debug */,
+				02B243E9137F14FD0068A2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02B243A4137F14FD0068A2B2 /* Project object */;
+}

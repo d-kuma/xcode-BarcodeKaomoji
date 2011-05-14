@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SodateAATests' target in the 'SodateAATests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
