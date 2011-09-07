@@ -14,6 +14,7 @@
 #import "SodateAAListViewController.h"
 #import "SodateAAInfoViewController.h"
 #import "SodateAAHelpViewController.h"
+#import "SodateAATwitterViewController.h"
 #import "HttpConnectionWrapper.h"
 
 // AAアニメ差分
@@ -62,6 +63,9 @@
     
     // 「info」ボタン
     IBOutlet UIButton *mainInfoButton;
+    
+    // 「Twitter」ボタン
+    IBOutlet UIButton *mainTwitterButton;
     
     // ライフ動作差分管理用
 	BOOL aaAnimeSwitch;
@@ -119,6 +123,11 @@
  * ヘルプ画面へ遷移する
  */
 - (IBAction) HelpButtonTapped;
+
+/**
+ * Twitter画面へ遷移する
+ */
+- (IBAction) TwitterButtonTapped;
 
 /**
  * 商品読み取り結果を設定する

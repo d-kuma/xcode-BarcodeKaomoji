@@ -321,6 +321,20 @@ clickedButtonAtIndex:(NSInteger)buttonIndex
 }
 
 /**
+ * Twitter画面へ遷移する
+ */
+- (IBAction) TwitterButtonTapped
+{
+    SodateAATwitterViewController *twitter =[[SodateAATwitterViewController alloc]initWithNibName:@"SodateAATwitterViewController" 
+                                                                                           bundle:nil];
+    twitter.aaText = mainAALabel.text;
+    twitter.itemText = mainStatusTextView.text;
+    [self presentModalViewController:twitter 
+                            animated:YES];
+    [twitter release];
+}
+
+/**
  * メッセージを表示する
  */
 -(void)showMessage: (NSString *) message

@@ -34,10 +34,15 @@
 		02D8C16713E4825900519C02 /* SodateAAListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D8C16513E4825900519C02 /* SodateAAListViewController.m */; };
 		02D8C16813E4825900519C02 /* SodateAAListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D8C16613E4825900519C02 /* SodateAAListViewController.xib */; };
 		02D8C17013E4A7E100519C02 /* SodateAAResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D8C16F13E4A7E100519C02 /* SodateAAResult.m */; };
+		02DE2EE7140BC2D100D4C52D /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DE2EE2140BC2D000D4C52D /* NSData+Base64.m */; };
+		02DE2EE8140BC2D100D4C52D /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DE2EE4140BC2D100D4C52D /* OAuth+Additions.m */; };
+		02DE2EE9140BC2D100D4C52D /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DE2EE6140BC2D100D4C52D /* OAuthCore.m */; };
 		02DF511913EE7A5B00595453 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DF511613EE7A5B00595453 /* background.png */; };
 		02E01A7B13E9836800E143E2 /* HttpConnectionWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E01A7A13E9836800E143E2 /* HttpConnectionWrapper.m */; };
 		02E01DD913F7165E00216F9D /* icon_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E01DD713F7165E00216F9D /* icon_twitter.png */; };
 		02E01DDA13F7165E00216F9D /* icon_web.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E01DD813F7165E00216F9D /* icon_web.png */; };
+		02E4D03713FD6B3F00F7320D /* SodateAATwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E4D03513FD6B3F00F7320D /* SodateAATwitterViewController.m */; };
+		02E4D03813FD6B3F00F7320D /* SodateAATwitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E4D03613FD6B3F00F7320D /* SodateAATwitterViewController.xib */; };
 		02E52CA813F6FEC600945D60 /* icon_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E52CA613F6FEC600945D60 /* icon_arrow_left.png */; };
 		02E52CA913F6FEC600945D60 /* icon_barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E52CA713F6FEC600945D60 /* icon_barcode.png */; };
 		02E96ACC13F6867000B1633B /* icon_copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E96AC813F6867000B1633B /* icon_copy.png */; };
@@ -109,11 +114,20 @@
 		02D8C16613E4825900519C02 /* SodateAAListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SodateAAListViewController.xib; sourceTree = "<group>"; };
 		02D8C16E13E4A7E100519C02 /* SodateAAResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SodateAAResult.h; sourceTree = "<group>"; };
 		02D8C16F13E4A7E100519C02 /* SodateAAResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SodateAAResult.m; sourceTree = "<group>"; };
+		02DE2EE1140BC2D000D4C52D /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		02DE2EE2140BC2D000D4C52D /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		02DE2EE3140BC2D100D4C52D /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
+		02DE2EE4140BC2D100D4C52D /* OAuth+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
+		02DE2EE5140BC2D100D4C52D /* OAuthCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
+		02DE2EE6140BC2D100D4C52D /* OAuthCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthCore.m; sourceTree = "<group>"; };
 		02DF511613EE7A5B00595453 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		02E01A7913E9836800E143E2 /* HttpConnectionWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpConnectionWrapper.h; sourceTree = "<group>"; };
 		02E01A7A13E9836800E143E2 /* HttpConnectionWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpConnectionWrapper.m; sourceTree = "<group>"; };
 		02E01DD713F7165E00216F9D /* icon_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_twitter.png; sourceTree = "<group>"; };
 		02E01DD813F7165E00216F9D /* icon_web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_web.png; sourceTree = "<group>"; };
+		02E4D03413FD6B3F00F7320D /* SodateAATwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SodateAATwitterViewController.h; sourceTree = "<group>"; };
+		02E4D03513FD6B3F00F7320D /* SodateAATwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SodateAATwitterViewController.m; sourceTree = "<group>"; };
+		02E4D03613FD6B3F00F7320D /* SodateAATwitterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SodateAATwitterViewController.xib; sourceTree = "<group>"; };
 		02E52CA613F6FEC600945D60 /* icon_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_left.png; sourceTree = "<group>"; };
 		02E52CA713F6FEC600945D60 /* icon_barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_barcode.png; sourceTree = "<group>"; };
 		02E96AC813F6867000B1633B /* icon_copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_copy.png; sourceTree = "<group>"; };
@@ -227,6 +241,12 @@
 		02B243B7137F14FD0068A2B2 /* SodateAA */ = {
 			isa = PBXGroup;
 			children = (
+				02DE2EE1140BC2D000D4C52D /* NSData+Base64.h */,
+				02DE2EE2140BC2D000D4C52D /* NSData+Base64.m */,
+				02DE2EE3140BC2D100D4C52D /* OAuth+Additions.h */,
+				02DE2EE4140BC2D100D4C52D /* OAuth+Additions.m */,
+				02DE2EE5140BC2D100D4C52D /* OAuthCore.h */,
+				02DE2EE6140BC2D100D4C52D /* OAuthCore.m */,
 				02E01DD713F7165E00216F9D /* icon_twitter.png */,
 				02E01DD813F7165E00216F9D /* icon_web.png */,
 				02E52CA613F6FEC600945D60 /* icon_arrow_left.png */,
@@ -261,6 +281,9 @@
 				0299638913F670FA004542A4 /* SodateAAHelpViewController.h */,
 				0299638A13F670FA004542A4 /* SodateAAHelpViewController.m */,
 				0299638B13F670FA004542A4 /* SodateAAHelpViewController.xib */,
+				02E4D03413FD6B3F00F7320D /* SodateAATwitterViewController.h */,
+				02E4D03513FD6B3F00F7320D /* SodateAATwitterViewController.m */,
+				02E4D03613FD6B3F00F7320D /* SodateAATwitterViewController.xib */,
 			);
 			path = SodateAA;
 			sourceTree = "<group>";
@@ -455,6 +478,7 @@
 				02E52CA913F6FEC600945D60 /* icon_barcode.png in Resources */,
 				02E01DD913F7165E00216F9D /* icon_twitter.png in Resources */,
 				02E01DDA13F7165E00216F9D /* icon_web.png in Resources */,
+				02E4D03813FD6B3F00F7320D /* SodateAATwitterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +523,10 @@
 				02E01A7B13E9836800E143E2 /* HttpConnectionWrapper.m in Sources */,
 				02D719A413ED00AB0047593E /* SodateAAInfoViewController.m in Sources */,
 				0299638C13F670FA004542A4 /* SodateAAHelpViewController.m in Sources */,
+				02E4D03713FD6B3F00F7320D /* SodateAATwitterViewController.m in Sources */,
+				02DE2EE7140BC2D100D4C52D /* NSData+Base64.m in Sources */,
+				02DE2EE8140BC2D100D4C52D /* OAuth+Additions.m in Sources */,
+				02DE2EE9140BC2D100D4C52D /* OAuthCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,7 +625,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SodateAA/SodateAA-Prefix.pch";
 				INFOPLIST_FILE = "SodateAA/SodateAA-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ZBarSDK\"",
@@ -615,7 +643,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SodateAA/SodateAA-Prefix.pch";
 				INFOPLIST_FILE = "SodateAA/SodateAA-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/ZBarSDK\"",
